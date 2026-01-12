@@ -1,0 +1,36 @@
+# Source files
+nodes/
+credentials/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# Dev files
+.gitignore
+.editorconfig
+.github/
+
+# Build artifacts not needed
+*.ts
+!*.d.ts
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
